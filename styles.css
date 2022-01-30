@@ -1,4 +1,5 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish&display=swap");
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -41,6 +42,64 @@ table {
 
 td, th {
   padding: 0;
+}
+
+@font-face {
+  font-family: "Gt-Ultra-Standard-Regular-Trial";
+  src: url("GT-Ultra-Standard-Regular-Trial.otf") format("otf");
+}
+body {
+  background: #060447;
+  margin-top: 60px;
+  margin-left: 107px;
+  color: #fff38a;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo1 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.title1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 49px;
+  padding-top: 24px;
+}
+
+.paragraph1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 8px;
+}
+
+.time1 {
+  font-family: Gt-Ultra-Standard-Regular-Trial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 231.148px;
+  line-height: 254px;
+  margin-top: 200px;
+}
+
+.poster {
+  padding-top: 25px;
+  padding-left: 50px;
+  width: 530px;
+  height: 822.59px;
+  margin-right: 129px;
 }
 
 /*# sourceMappingURL=styles.css.map */

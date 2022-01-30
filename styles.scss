@@ -1,1 +1,63 @@
 @import "libs/reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish&display=swap');
+@font-face {
+  font-family: "Gt-Ultra-Standard-Regular-Trial";
+  src: url("GT-Ultra-Standard-Regular-Trial.otf") format('otf');
+}
+
+$fontcolor: hsla(54,100,77,1);
+$bgcolor: #060447;
+
+body {
+  background: $bgcolor;
+  margin-top: 60px;
+  margin-left: 107px;
+
+  color: $fontcolor;
+
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo1 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.title1{
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 49px;
+  padding-top:24px;
+}
+.paragraph1{
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top:8px;
+}
+.time1 {
+  font-family: Gt-Ultra-Standard-Regular-Trial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 231.148px;
+  line-height: 254px;
+  margin-top: 200px;
+
+}
+.poster {
+  //background: pink;
+  padding-top: 25px;
+  padding-left: 50px;
+  width: 530px;
+  height: 822.59px;
+  margin-right: 129px;
+}
+
